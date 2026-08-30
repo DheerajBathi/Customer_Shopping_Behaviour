@@ -28,65 +28,37 @@ The goal of this project is to simulate a corporate-grade end-to-end data analyt
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
-   cd customer-trends-data-analysis-SQL-Python-PowerBI
+   git clone https://github.com/DheerajBathi/Customer_Shopping_Behaviour.git
+   cd Customer_Shopping_Behaviour
    ```
-2. **Open Customer_Shopping_Behavior_Analysis.ipynb notebook**
 
-    This file contains:
+2. **Set up the Python Environment**
+   Set up a virtual environment and install the required dependencies (such as Pandas, SQLAlchemy, and Jupyter):
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install pandas sqlalchemy psycopg2-binary pymysql notebook
+   ```
 
-      - Data Import
+3. **Open and Run the Jupyter Notebook**
+   Activate the kernel in your editor or start Jupyter:
+   ```bash
+   jupyter notebook
+   ```
+   Open **Customer_Shopping_Behavior_Analysis.ipynb**, which contains:
+   - Data Import and Exploration
+   - Data Cleaning
+   - Connection to SQL Databases
 
-      - Data exploration
+4. **Load Data into SQL Database**
+   - Create a database (MySQL/PostgreSQL/MS SQL Server)
+   - Run the cells in the Python notebook to load the data directly
+   - Open [customer_behavior_sql_queries.sql](file:///home/dheeraj/Desktop/Ofzen%20Projects/DataAnalytics/customer-trends-data-analysis-SQL-Python-PowerBI/customer_behavior_sql_queries.sql) to run query analysis
 
-      - Data cleaning
+5. **Connect SQL Database to Power BI**
+   - Open **customer_behavior_dashboard.pbix**
+   - Refresh and build interactive dashboards
 
-      - Connection to SQL Database
-  
-3. **Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server**
-
-      - Create a database in SQL
-
-      - Run Python code to load data into SQL database
-  
-      - Open **customer_behavior_sql_queries.sql**
-  
-      - Answer Business Questions using SQL Queries 
-      
-4. **Connect the SQL Database to Power BI**
-
-      - Open **customer_behavior_dashboard.pbix**
-   
-      - Create interactive dashboard in Power BI
-  
-6. **Create Project Report and Presentation**
-
-      - Create project report
-   
-      - Build presentation deck using Gamma AI
-  
-7. **Follow along with the YouTube video for full walkthrough. 👨‍💼**
-
-
-## 📜 License
-
-MIT — feel free to fork, star, and use in your portfolio.
-
-## 👨‍💻 About the Author
-Hey, I’m Amlan Mohanty, a Data Analyst & Content Creator.
-I break down complex data topics into simple, practical content that actually helps you land a job.
-
- ### 🚀 Stay Connected & Join my Data Community
-If you enjoyed this project and want to keep learning and growing as a data analyst, let’s stay in touch! I regularly share content around SQL, data analytics, portfolio projects, job tips, and more.
-
-🎥 YouTube: [Amlan Mohanty](https://www.youtube.com/@amlanmohanty1)
-- Beginner-friendly tutorials, real-world projects, job and career advice
-
-📺 Instagram: [datacareerschool](https://www.instagram.com/datacareerschool/)
-- Quick SQL tips, data memes, and behind-the-scenes content
-
-💼 LinkedIn: [Amlan Mohanty](https://www.linkedin.com/in/amlanmohanty1/)
-- Let’s connect professionally and grow your data career
-
-
-## 💡 Thanks for checking out the project! Your support means a lot! Feel free to star ⭐ this repo or share it with someone learning Data Analytics.🚀
+6. **Generate Report and Presentation**
+   - Write your final data insights report
+   - Build a presentation deck using Gamma AI or similar tools
