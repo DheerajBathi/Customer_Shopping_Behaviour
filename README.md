@@ -53,7 +53,7 @@ The goal of this project is to simulate a corporate-grade end-to-end data analyt
 4. **Load Data into SQL Database**
    - Create a database (MySQL/PostgreSQL/MS SQL Server)
    - Run the cells in the Python notebook to load the data directly
-   - Open [customer_behavior_sql_queries.sql](file:///home/dheeraj/Desktop/Ofzen%20Projects/DataAnalytics/customer-trends-data-analysis-SQL-Python-PowerBI/customer_behavior_sql_queries.sql) to run query analysis
+   - Open [customer_behavior_sql_queries.sql](customer_behavior_sql_queries.sql) to run query analysis
 
 5. **Connect SQL Database to Power BI**
    - Open **customer_behavior_dashboard.pbix**
